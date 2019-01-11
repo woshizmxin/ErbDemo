@@ -1,0 +1,2 @@
+<%for organization in data.keys%>insert into org_domain(Domain, organization) values('<%=data[organization]%>','<%=organization%>');
+<%end%>
